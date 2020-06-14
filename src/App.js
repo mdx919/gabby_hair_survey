@@ -6,7 +6,6 @@ function App() {
   return (
     <div className='App'>
       <p>hello</p>
-      <a href='#'>a tag</a>
     </div>
   );
 }
