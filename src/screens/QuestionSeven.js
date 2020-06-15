@@ -17,8 +17,8 @@ class QuestionSeven extends Component {
         <QuestionTitle question={'9- Is your hair frizzy?'} />
         {options.map((item) => {
           if (
-            (ansSeven && ansSeven == item) ||
-            (savedAns7 && savedAns7 == item)
+            (ansSeven && ansSeven === item) ||
+            (savedAns7 && savedAns7 === item)
           ) {
             return (
               <Checkbox

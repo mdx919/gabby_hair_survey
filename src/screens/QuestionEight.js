@@ -22,8 +22,8 @@ class QuestionEight extends Component {
         <QuestionTitle question={'10- Are you allergic to nuts or soy?'} />
         {options.map((item) => {
           if (
-            (ansEight && ansEight == item) ||
-            (savedAns8 && savedAns8 == item)
+            (ansEight && ansEight === item) ||
+            (savedAns8 && savedAns8 === item)
           ) {
             return (
               <Checkbox

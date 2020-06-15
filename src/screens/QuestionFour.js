@@ -17,8 +17,8 @@ class QuestionFour extends Component {
         <QuestionTitle question={'6- How is your hair density?'} />
         {options.map((item) => {
           if (
-            (ansFour && ansFour == item) ||
-            (savedAns4 && savedAns4 == item)
+            (ansFour && ansFour === item) ||
+            (savedAns4 && savedAns4 === item)
           ) {
             return (
               <Checkbox

@@ -16,7 +16,10 @@ class QuestionTwo extends Component {
       <div className='center-all main'>
         <QuestionTitle question={'4- Is your hair color treated?'} />
         {options.map((item) => {
-          if ((ansTwo && ansTwo == item) || (savedAns2 && savedAns2 == item)) {
+          if (
+            (ansTwo && ansTwo === item) ||
+            (savedAns2 && savedAns2 === item)
+          ) {
             return (
               <Checkbox
                 key={item}

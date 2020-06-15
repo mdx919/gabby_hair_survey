@@ -17,8 +17,8 @@ class QuestionThree extends Component {
         <QuestionTitle question={'5- How would you describe your scalp?'} />
         {options.map((item) => {
           if (
-            (ansThree && ansThree == item) ||
-            (savedAns3 && savedAns3 == item)
+            (ansThree && ansThree === item) ||
+            (savedAns3 && savedAns3 === item)
           ) {
             return (
               <Checkbox
